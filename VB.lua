@@ -47,8 +47,8 @@ local UITab1 = win:Tab("『信息』",'6035145364')
 local about = UITab1:section("『信息』",true)
 
 
-about:Label("作者QQ198436746")
-about:Label("qq群930667114")
+about:Label("作者QQ：198436746")
+about:Label("qq群：930667114")
 about:Label("作者：丁丁")
 about:Label("脚本疯狂优化中")
 about:Label("你的注入器:"..identifyexecutor())
@@ -242,8 +242,6 @@ about:Button("RP变怪",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))()
 end)
 
-local about = UITab6:section("『刷物』",true)
-
 about:Button("剪刀",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/shears_done.lua"))()
 end)
@@ -260,12 +258,65 @@ about:Button("吸铁石",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/xHxGDp51"))()
 end)
 
-local about = UITab6:section("『刷怪』",true)
-
 about:Button("刷怪变怪",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/shuaguai"))()
 end)
 
 about:Button("变身",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))()
+end)
+
+local UITab8 = win:Tab("『俄亥俄州』",'16060333448')
+
+local about = UITab8:section("『俄亥俄州』",true)
+
+about:Button("自动找印钞机",function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/ClasiniZukov/e7547e7b48fa90d10eb7f85bd3569147/raw/f95cd3561a3bb3ac6172a14eb74233625b52e757/gistfile1.txt"))()
+end)
+
+about:Button("传送加自动工作",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/ohio/main/Roblox232"))()
+end)
+
+about:Button("俄亥俄州1英",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/0MqfXpvY", true))()
+end)
+
+about:Button("俄亥俄州2英",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MyfCUnGK'))()
+end)
+
+about:Button("俄亥俄州3",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rxn-xyz/Ohio./main/Ohio.lua",true))()
+end)
+
+about:Button("俄亥俄州4",function()
+loadstring(game:HttpGet("https://pastefy.app/QbXPfsgC/raw"))()
+end)
+
+about:Button("俄亥俄州5",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/hkvHeHed",true))()
+end)
+
+about:Button("指令",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/longshulol/long/main/longshu/Ohio"))()
+end)
+
+
+about:Label("透开—透关")
+about:Label("追踪开—追踪关")
+about:Label("收钱开—收钱关")
+about:Label("收物开—收物关")
+about:Label("抢取款机开—抢取款机关")
+about:Label("抢银行开—抢银行关")
+about:Label("穿墙开—穿墙关")
+
+
+
+local UITab9 = win:Tab("『骨折VI』",'16060333448')
+
+local about = UITab9:section("『骨折VI』",true)
+
+about:Button("骨折VI  1",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/5rEAVmcC'))()
 end)
